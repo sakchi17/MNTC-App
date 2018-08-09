@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "382668217562",
+    "firebase_url": "https://mntc-app.firebaseio.com",
+    "project_id": "mntc-app",
+    "storage_bucket": "mntc-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382668217562:android:16be2bdf0278ce02",
+        "android_client_info": {
+          "package_name": "com.example.oem.mntc_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382668217562-rc8e1t3q2a0ccoag5scotdccn2aakrbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvhOp3vLJr2GbOavPA8leTI9j4lmRmho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
