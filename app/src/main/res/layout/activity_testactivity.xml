@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testactivity"
+    android:background="#FAFAD2">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:text="NAME"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#C0C0C0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="409dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:background="#FAFAD2"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentright="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="0dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="173dp"
+            android:layout_height="43dp"
+            android:layout_weight="0"
+            android:textSize="24sp"
+            android:text="@string/your_string_name"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="0"
+            android:text="TextView" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_pirates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option a"
+                android:textSize="25sp"
+               />
+            <RadioButton android:id="@+id/radio_ninjas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option b"
+                android:textSize="25sp"
+               />
+            <RadioButton android:id="@+id/radio_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option c"
+                android:textSize="25sp"
+            />
+            <RadioButton android:id="@+id/radio_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option d"
+                android:textSize="25sp"
+               />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
